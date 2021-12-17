@@ -33,7 +33,10 @@ export default defineComponent({
 
 .move-left-to-right {
   animation: just-left-to-right 20s linear infinite;
-  -webkit-animation: just-left-to-right 20s linear infinite;
+  -webkit-animation-name: just-left-to-right;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes just-left-to-right {
