@@ -7,11 +7,14 @@ import {
   defineComponent,
   provide,
 } from 'vue';
+import { useRouter } from 'vue-router'
+
 export default defineComponent({
   name: "App",
   setup() {
+    const router = useRouter();
     const moveTo = (stageName :string) => {
-        window.location.replace(`${stageName}`);
+      router.replace(`/${stageName}`)
     }
 
     provide('moveTo', moveTo);
