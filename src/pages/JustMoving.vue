@@ -41,45 +41,45 @@ export default defineComponent({
 
 @-webkit-keyframes just-left-to-right {
   0% {
-    -webkit-margin-left: 100%;
+    -webkit-transform: translateX(0);
   }
 
   25% {
-    -webkit-margin-left: 0;
+    -webkit-transform: translateX(45vw);
   }
 
   50% {
-    -webkit-margin-left: -100%;
+    -webkit-transform: translateX(0);
   }
 
   75% {
-    -webkit-margin-left: -0%;
+    -webkit-transform: translateX(-45vw);
   }  
 
   100% {
-    -webkit-margin-left: 100%;
+    -webkit-transform: translateX(0);
   }  
 }
 
 @keyframes just-left-to-right {
   0% {
-    margin-left: 100%;
+    transform: translateX(0);
   }
 
   25% {
-    margin-left: 0;
+    transform: translateX(45vw);
   }
 
   50% {
-    margin-left: -100%;
+    transform: translateX(0);
   }
 
   75% {
-    margin-left: -0%;
+    transform: translateX(-45vw);
   }  
 
   100% {
-    margin-left: 100%;
+    transform: translateX(0);
   }  
 }
 
