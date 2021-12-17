@@ -10,5 +10,6 @@ const aliases = ViteAliases({
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(), aliases]
+  plugins: [vue(), aliases],
+  base: '/can-you-catch-circle/',
 })
