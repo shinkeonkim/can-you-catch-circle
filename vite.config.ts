@@ -12,4 +12,5 @@ const aliases = ViteAliases({
 export default defineConfig({
   plugins: [vue(), aliases],
   base: '/can-you-catch-circle/',
+  publicDir: '/can-you-catch-circle',
 })

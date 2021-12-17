@@ -1,5 +1,5 @@
 <template>
-  <img alt="logo" src="/logo.png" />
+  <img alt="logo" src="@/assets/logo.png" />
   <h1>
     Can you catch just moving "Circle"?
   </h1>

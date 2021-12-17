@@ -1,5 +1,5 @@
 <template>
-  <img alt="logo" src="/logo.png" />
+  <img alt="logo" src="@/assets/logo.png" />
   <h1 class="title">
     Hello, Can you catch "Circle"?
     <br>

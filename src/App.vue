@@ -7,12 +7,11 @@ import {
   defineComponent,
   provide,
 } from 'vue';
-  
 export default defineComponent({
   name: "App",
   setup() {
     const moveTo = (stageName :string) => {
-        window.location.replace(`/${stageName}`);
+        window.location.replace(`${stageName}`);
     }
 
     provide('moveTo', moveTo);
