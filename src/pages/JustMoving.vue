@@ -1,5 +1,5 @@
 <template>
-  <img alt="logo" src="/src/assets/logo.png" />
+  <img alt="logo" src="/logo.png" />
   <h1>
     Can you catch just moving "Circle"?
   </h1>
@@ -13,7 +13,7 @@
 import {
   defineComponent, inject,
 } from 'vue'
-import Circle from '../components/Circle.vue'
+import Circle from '@/components/Circle.vue'
 
 export default defineComponent({
     name: "JustMovingPage",
