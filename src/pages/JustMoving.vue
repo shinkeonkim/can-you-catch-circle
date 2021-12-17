@@ -33,6 +33,29 @@ export default defineComponent({
 
 .move-left-to-right {
   animation: just-left-to-right 20s linear infinite;
+  -webkit-animation: just-left-to-right 20s linear infinite;
+}
+
+@-webkit-keyframes just-left-to-right {
+  0% {
+    -webkit-margin-left: 100%;
+  }
+
+  25% {
+    -webkit-margin-left: 0;
+  }
+
+  50% {
+    -webkit-margin-left: -100%;
+  }
+
+  75% {
+    -webkit-margin-left: -0%;
+  }  
+
+  100% {
+    -webkit-margin-left: 100%;
+  }  
 }
 
 @keyframes just-left-to-right {
