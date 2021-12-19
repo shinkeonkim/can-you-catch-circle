@@ -8,7 +8,7 @@
     <Circle
       @click="moveTo('what-next')"
       class="move-left-to-right"
-      :style="`animation-duration: ${compuetedAnimationDuration}s;`"
+      :style="`animation-duration: ${compuetedAnimationDuration}s;-webkit-animation-duration: ${compuetedAnimationDuration}s;`"
     />
   </div>
 </template>
